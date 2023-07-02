@@ -1,0 +1,6 @@
+spring:
+  data:
+    mongodb:
+      username: root
+      password: ${MONGO_ROOT_PASSWORD}
+      uri: mongodb://root:${MONGO_ROOT_PASSWORD}@127.0.0.1:27010/book?authSource=admin
